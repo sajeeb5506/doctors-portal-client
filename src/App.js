@@ -1,4 +1,6 @@
+import React from 'react';
 import { Route, Routes } from "react-router-dom";
+
 import Appointment from "./Appointment/Appointment";
 import About from "./Pages/About/About";
 import Home from "./Pages/Home/Home";
