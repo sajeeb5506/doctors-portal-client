@@ -16,7 +16,7 @@ const Services = ({service,setTreatment}) => {
           <div class="card-actions justify-start">
 
            
-            <label for="booking-modal" 
+            <label htmlFor="booking-modal" 
             onClick={()=>setTreatment(service)} disabled={slots.length===0}
              class="btn btn-secondary text-white bg-gradient-to-r from-primary to-secondary"
              >Book Appointment
