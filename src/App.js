@@ -8,6 +8,8 @@ import Login from "./Pages/Login/Login";
 import RequireAuth from './Pages/Login/RequireAuth';
 import SignUp from './Pages/Login/SignUp';
 import Navber from "./Pages/Shared/Navber";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
         
        } />
       </Routes>
+      <ToastContainer />
     </div>
   );
 }
